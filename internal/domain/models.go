@@ -1,3 +1,4 @@
+// internal/domain/models.go
 package domain
 
 import (
@@ -31,7 +32,7 @@ type Meeting struct {
 	EndTime         time.Time `json:"end_time"`
 	EventID         string    `json:"event_id"`                  // Google Calendar Event ID
 	AttendeesString string    `gorm:"column:attendees" json:"-"` // Comma-separated attendees (for storage)
-	Attendees       []string  `gorm:"-" json:"attends"`          // Attendees (for API response)
+	Attendees       []string  `gorm:"-" json:"attendees"`        // Attendees (for API response)
 	CreatedBy       string    `json:"created_by"`                // Email of the user who created the meeting
 }
 

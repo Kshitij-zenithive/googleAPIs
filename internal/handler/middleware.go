@@ -1,11 +1,11 @@
+// internal/handler/middleware.go
 package handler
 
 import (
 	"context"
+	"google-calendar-api/internal/service"
 	"log"
 	"net/http"
-
-	"google-calendar-api/internal/service"
 
 	"github.com/golang-jwt/jwt/v5"
 )

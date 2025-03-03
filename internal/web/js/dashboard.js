@@ -1,3 +1,4 @@
+// internal/web/js/dashboard.js
 document.addEventListener('DOMContentLoaded', () => {
     const createEventForm = document.getElementById('createEventForm');
     const eventList = document.getElementById('eventList');

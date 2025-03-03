@@ -1,7 +1,9 @@
+// internal/service/service.go
 package service
 
 import (
 	"context"
+	// "google-calendar-api/internal/domain"
 	"time"
 
 	"golang.org/x/oauth2"
